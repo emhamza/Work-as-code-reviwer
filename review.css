@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: #fff;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #D8DBDE;
+}
+
+.search-bar{
+    flex-grow: 1;
+    display: flex;
+    margin: 0 2rem 0 4rem;
+
+}
+
+.search-input{
+    height: 40px;
+    width: 100%;
+    font-size: 17px;
+    padding: .4em;
+    margin-left: 150px;
+    border: 1px solid #777;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.search-btn {
+    margin-right: 300px;
+    display: flex;
+    align-items: center;
+    padding: 0 1.25rem;
+    border: 1px solid #777;
+    background-color: #f8f8f8;
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+    height: auto;
+}
+
+.search{
+    background-color: #f0f0f0;
+    height: 38px;
+    width: 30px;
+}
+
+.mic{
+    margin-left: -310px;
+    height: 34px;
+}
+
+.iframe{
+    margin-left: 35px;
+    margin-top: 15px;
+
+}
+
+.categories{
+    padding: 1rem 2rem;
+}
+
+.category-section{
+    margin-left: 800px;
+    margin-top: -509px;
+    display: flex;
+    overflow: hidden;
+}
+
+.cateroryactive{
+    background-color: #000;
+}
+
+.category{
+    margin-right: 1rem;
+    word-wrap: none;
+    white-space: nowrap;
+    border: 1px solid #CCC;
+    border-radius: 90px;
+    background-color: #E7E7E7;
+    padding: .5rem 1rem;
+    font-size: inherit;
+    cursor: pointer;
+    transition: background-color 150ms;
+}
+
+.sidebar{
+    display: grid;
+    margin-left: 836px;
+    margin-top: -469px;
+    padding: .3rem;
+    background-color: #F1F7F7;
+}
+.playlist1{
+    margin-top: 9px;
+}
+.playlist2{
+    margin-top: 9px;
+}
+.playlist3{
+    margin-top: 9px;
+}
+.playlist4{
+    margin-top: 9px;
+}
+.playlist5{
+    margin-top: 9px;
+}
+.video-title{
+    text-decoration: none;
+    color: #000;
+    margin-left: 35px;
+    padding-top: 10px;
+}
+.discription{
+    display: flex;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+.view{
+    margin-left: 7px;
+}
+.span{
+    margin-left: 7px;
+}
